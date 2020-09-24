@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 public class PartitionTest {
 
     @Test
-    public void whenThis_thenThat() {
+    public void whenOfSize_thenReturnNewPartition() {
     	final AtomicInteger counter = new AtomicInteger();
     	final int chunkSize = 3;
     	final List<Integer> numbers = Arrays.asList(1,2,3,4,5,6,7);
